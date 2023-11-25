@@ -15,6 +15,7 @@ parent.addEventListener("scroll",()=>{
 	if(maxScrollHeight-scrollledHeight<=5){
 		addTwoMoreItems();
 	}
+})
 function addTwoMoreItems(){
 	let element1 = document.createElement("li");
 	element1.innerText = `Item ${count++}`;
